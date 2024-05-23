@@ -48,7 +48,7 @@ const CartItem = ({ product }) => {
                 {name}
               </h2>
               <p className="mt-1 text-sm text-gray-700">Price: ${price}</p>
-              <p className="mt-1 text-sm text-gray-700">Category: ${category}</p>
+              <p className="mt-1 text-sm text-gray-700">Category: {category}</p>
             </div>
 
             {/* add & minus quantity */}
